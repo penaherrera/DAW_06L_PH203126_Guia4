@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Zona horaria internacional</title>
+    <meta charset="utf-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="JS/ejercicio2.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrapicons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body class="container pt-5">
+    <header>
+        <h1 class="text-center" id="pagetitle">Zonas del horario internacional</h1>
+    </header>
+    <div class="d-flex justify-content-center">
+        <form name="zonahoraria" class="bg-light p-3 border border rounded w-50">
+            <h1> Zonas horarias del mundo
+                <span>Seleccione su zona horaria.</span>
+            </h1>
+            <div class="form-group">
+                <select name="zonas" id="zhselect" class="form-control">
+                    <option value="-12">Línea internacional de fecha del oeste</option>
+                    <option value="-11">Isla Midway, Samoa</option>
+                    <option value="-10">Hawai</option>
+                    <option value="-9">Alaska</option>
+                    <option value="-8">Hora del Pacífico (USA y Canadá)</option>
+                    <option value="-7">Hora de las montañas rocosas (USA y Canadá)</option>
+                    <option value="-6">América Central</option>
+                    <option value="-5">Hora central (USA y Canadá)</option>
+                    <option value="-4">Hora del Atlántico (Canadá)</option>
+                    <option value="-3">Buenos Aires, Asunción, Brasilia,
+                        Montevideo</option>
+                    <option value="-2">Atlántico Central</option>
+                    <option value="-1">Azores</option>
+                    <option value="0" selected="selected">Hora del meridiano de Greenwich,
+                        Londres, Dublin</option>
+                    <option value="+1">Paris, Madrid, Barcelona, Roma</option>
+                    <option value="+2">El Cairo</option>
+                    <option value="+3">Nairobi</option>
+                    <option value="+4">Bakú</option>
+                    <option value="+5">Ekaterimburgo</option>
+                    <option value="+6">Astana</option>
+                    <option value="+7">Bangkok</option>
+                    <option value="+8">Ulán Bator</option>
+                    <option value="+9">Tokio</option>
+                    <option value="+10">Sidney</option>
+                    <option value="+11">Islas Salomón</option>
+                    <option value="+12">Wellington</option>
+                </select>
+            </div>
+            <div class="form-group">
+
+                <label class="control-label">La hora en esta zona horaria es</label>
+                <input type="text" name="hour" class="form-control" id="hour" placeholder="(zona horaria)"
+                    readonly="readonly" />
+            </div>
+        </form>
+    </div>
+</body>
+<script src="JS/ejercicio2.js"></script>
+
+
+</html>
